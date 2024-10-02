@@ -9,7 +9,6 @@ import _ from 'lodash';
 import Swal from "sweetalert2";
 import {AuthContext} from "../../context/authContext";
 import {DELETE_COMPANY, GET_COMPANIES} from "../../config/graphql/companiesQueries";
-import {DELETE_CUSTOMER} from "../../config/graphql/customerQueries";
 
 function Companies() {
   const {logout} = useContext(AuthContext);

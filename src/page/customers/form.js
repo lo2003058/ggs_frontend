@@ -273,6 +273,7 @@ function CustomerForm() {
             Shopify ID
           </label>
           <input
+            disabled={!isEditMode}
             type="text"
             name="shopifyId"
             id="shopifyId"
