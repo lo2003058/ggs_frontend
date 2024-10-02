@@ -32,7 +32,6 @@ function App() {
               <Route path="/customer/form/:id" element={<CustomerForm />} />
               <Route path="/customer/view/:id" element={<CustomerView />} />
 
-
               <Route path="/companies/*" element={<Companies/>}/>
               <Route path="/company/form" element={<CompanyForm />} />
               <Route path="/company/form/:id" element={<CompanyForm />} />
